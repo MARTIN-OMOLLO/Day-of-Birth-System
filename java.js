@@ -1,14 +1,11 @@
-var date = document.getElementById("Date")
-var month = document.getElementById("Month")
-var year = document.getElementById("Year")
+var date = document.getElementById("Date").value
+var month = document.getElementById("Month").value
+var year = document.getElementById("Year").value
 var form = document.querySelector(".two")
 
-form.addEventListener("sumbit", function(e) {
-    e.preventDefault()
-console.log(date.value)
-console.log(month.value)
-console.log(year.value)
-
-
+document.getElementById("submit").addEventListener("sumbit", function(e) {
+var dateEntered = new Date(year, month, date);
+var dayOfWeek = dateEntered.getDay();
+console.log(dayOfWeek)
 
 });
