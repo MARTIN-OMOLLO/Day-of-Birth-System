@@ -8,5 +8,65 @@
     width: 170px;
 }
 .two{
-    display: block;
-}
+    display: block}
+    .Form {
+        background-color: #58b1d4;
+        width: 400px;
+        height: 500px;
+        text-align: center;
+        margin-left: 500px;
+        border-radius: 30px;
+        padding-top: 50px;
+     }
+    .formcontrold {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .martinm {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .martiny {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .marting {
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+    }
+
+    .submit {
+        background-color: #E67300;
+        border: 2px solid #E67300;
+        border-radius: 4px;
+        color: white;
+        display: block;
+        padding: 10px;
+        width: 30%;
+        margin-left: 50px;
+    }
+
+      #invalid {
+          text-align: center;
+          color: red;
+      }
+      #output {
+          text-align: center;
+          color: green;
+      }
+      #submit,
+      #reset {
+          background-color: #4edf79;
+          color: white;
+          border: none;
+          margin: 10px;
+          padding: 10px;
+          font-size: 15px;
+          border-radius: 5px;
+      }
+    
+    
+    
+    
+    
+    
