@@ -2,6 +2,7 @@
 
 ## Authors
 - [Martin Omollo](https://github.com/MARTIN-OMOLLO/Day-of-Birth-System.git)
+live link: https://martin-omollo.github.io/Day-of-Birth-System/
  
 
 ## Project setup instructions
